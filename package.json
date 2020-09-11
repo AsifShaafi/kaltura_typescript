@@ -11,7 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.10.0",
+    "dotenv": "^8.2.0",
     "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2",
+    "xhr2": "^0.2.0"
+  },
+  "dependencies": {
+    "kaltura-typescript-client": "file:lib/kaltura-typescript-client-7.0.1.tgz"
   }
 }
